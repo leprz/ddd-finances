@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="10e5401e-0f33-49d9-ad79-f5c3363cd4a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e0e61e7c-900d-4a28-ad32-44093a4e855b.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/finances.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/dev/monolog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/doctrine_migrations.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/messenger.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/prod/deprecations.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/prod/doctrine.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/prod/monolog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/test/doctrine.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/test/monolog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/routes/annotations.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/genius.phar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/genius.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/genius.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Common/Domain/ValueObject/TimePeriod.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Common/Domain/ValueObject/Traits/UuidTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Common/Infrastructure/Listener/OnBookCheckedInOverDueEvent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Common/Infrastructure/Persistence/EntityMapperTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Common/Infrastructure/Persistence/QueryBuilderTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/Account/Application/AccountPersistenceInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/Account/Application/AccountRepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/Account/Domain/Account.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/Account/Domain/AccountConstructorParameter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/Account/Domain/AccountConstructorParameterInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/Account/Domain/AccountId.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/Account/Infrastructure/AccountEntity.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/Account/Infrastructure/AccountEntityMapper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/Account/Infrastructure/AccountEntityPersistence.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/Account/Infrastructure/AccountEntityRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/Account/Infrastructure/AccountProxy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/AccountOwner/Application/AccountOwnerPersistenceInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/AccountOwner/Application/AccountOwnerRepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/AccountOwner/Domain/AccountOwner.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/AccountOwner/Domain/AccountOwnerConstructorParameter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/AccountOwner/Domain/AccountOwnerConstructorParameterInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/AccountOwner/Domain/AccountOwnerId.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/AccountOwner/Infrastructure/AccountOwnerEntity.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/AccountOwner/Infrastructure/AccountOwnerEntityMapper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/AccountOwner/Infrastructure/AccountOwnerEntityPersistence.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/AccountOwner/Infrastructure/AccountOwnerEntityRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/AccountOwner/Infrastructure/AccountOwnerProxy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/Fine/Application/FinePersistenceInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/Fine/Application/FineRepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/Fine/Domain/Fine.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/Fine/Domain/FineConstructorParameter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/Fine/Domain/FineConstructorParameterInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/Fine/Domain/FineId.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/Fine/Infrastructure/FineEntity.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/Fine/Infrastructure/FineEntityMapper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/Fine/Infrastructure/FineEntityPersistence.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/Fine/Infrastructure/FineEntityRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/Fine/Infrastructure/FineProxy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UseCase/AccountOpen/Application/AccountOpenAction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UseCase/AccountOpen/Application/AccountOpenCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UseCase/AccountOpen/Application/AccountOpenHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UseCase/AccountOpen/Domain/AccountOpenActionInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UseCase/AccountOpen/Domain/AccountOpenDataInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UseCase/FineChargeForOverDueBook/Application/FineChargeForOverDueBookAction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UseCase/FineChargeForOverDueBook/Application/FineChargeForOverDueBookCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UseCase/FineChargeForOverDueBook/Application/FineChargeForOverDueBookHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UseCase/FineChargeForOverDueBook/Application/FineChargeForOverDueBookTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UseCase/FineChargeForOverDueBook/Domain/FineChargeForOverDueBookActionInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UseCase/FineChargeForOverDueBook/Domain/FineChargeForOverDueBookDataInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shared-kernel/src/Domain/Event/Circulation/DomainBroadcastEventInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../circulation" beforeDir="false" afterPath="$PROJECT_DIR$/../circulation" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/console" beforeDir="false" afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shared-kernel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../shared-kernel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shared-kernel/src/Domain/Event/Circulation/BookCheckedInOverDueEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/../shared-kernel/src/Domain/Event/Circulation/BookCheckedInOverDueEvent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stocks" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ExcludedPharFiles">
+    <excludedPaths>
+      <path value="$PROJECT_DIR$/genius.phar/" />
+    </excludedPaths>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1qpPraBvkU5oDgOICzN3cHPWHuN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="compactDirectories" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Common/Infrastructure/Persistence" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Common/Infrastructure/Persistence" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Common/Infrastructure/Listener" />
+      <recent name="$PROJECT_DIR$/src/Common/Infrastructure" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="10e5401e-0f33-49d9-ad79-f5c3363cd4a1" name="Default Changelist" comment="" />
+      <created>1617773758988</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617773758988</updated>
+      <workItem from="1617773760136" duration="7000" />
+      <workItem from="1617773774896" duration="5764000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

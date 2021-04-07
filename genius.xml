@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<genius xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="genius.xsd"
+        appSrc="./src/"
+        appPrefix="Library\Finances"
+        testSrc="./tests/"
+        testPrefix="Library\Finances\Tests"
+>
+    <generators>
+         <directory>../shared-kernel/src/Generator</directory>
+    </generators>
+</genius>
