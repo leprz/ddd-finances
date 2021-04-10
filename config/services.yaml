@@ -21,6 +21,9 @@ services:
             - '../src/Kernel.php'
             - '../src/Tests/'
 
+    Library\Finances\Tests\Behat\:
+        resource: '../tests/Behat/*'
+
     # controllers are imported separately to make sure services can be injected
     # as action arguments even if you don't extend any base controller class
     Library\Finances\Controller\:
@@ -29,3 +32,12 @@ services:
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
+    Library\Finances\Core\Fine\Infrastructure\FineEntityMapper:
+        public: true
+    Library\Finances\Core\Fine\Domain\FineForOverdueBookPolicy:
+        public: true
+    Library\Finances\UseCase\FineChargeForOverDueBook\Domain\FineChargeForOverDueBookActionInterface:
+        alias: Library\Finances\UseCase\FineChargeForOverDueBook\Application\FineChargeForOverDueBookAction
+        public: true
+    Library\Finances\Core\Account\Application\AccountRepositoryInterface:
+        public: true

@@ -1,0 +1,16 @@
+default:
+    suites:
+        default:
+            paths:
+                - '%paths.base%/features/fine/book-fine.feature'
+            contexts:
+                - Library\Finances\Tests\Behat\BookFineContext
+
+    extensions:
+        FriendsOfBehat\SymfonyExtension:
+            bootstrap: '/home/przemek/Projects/ddd-library/packages/finances/config/behat/bootstrap.php'
+            kernel:
+                class: Library\Finances\Kernel
+                path: ~
+                environment: ~
+                debug: ~

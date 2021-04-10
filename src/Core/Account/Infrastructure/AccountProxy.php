@@ -14,8 +14,9 @@ class AccountProxy extends Account
     /**
      * @param \Library\Finances\Core\Account\Infrastructure\AccountEntity
      */
-    public function __construct(AccountEntity $entity)
+    public function __construct(private AccountEntity $entity)
     {
+        parent::__construct($this->entity);
     }
 
     /**
@@ -24,5 +25,6 @@ class AccountProxy extends Account
      */
     public function getEntity(AccountEntityMapper $mapper): AccountEntity
     {
+        return $mapper->mapToExistingEntity($this->entity, $this);
     }
 }

@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Library\Finances\Core\Account\Infrastructure;
 
 use Doctrine\ORM\EntityManagerInterface;
-use Library\Finances\Common\Infrastructure\Persistence\EntityMapperTrait;
+use Library\Finances\Common\Shared\Infrastructure\Persistence\EntityMapperTrait;
 use Library\Finances\Core\Account\Domain\Account;
 
 /**

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Library\Finances\Tests\UseCase\FineChargeForOverDueBook\Application;
+namespace Library\Finances\UseCase\FineChargeForOverDueBook\Application;
 
 use PHPUnit\Framework\TestCase;
 
@@ -23,5 +23,6 @@ class FineChargeForOverDueBookTest extends TestCase
      */
     public function testHandle(): void
     {
+
     }
 }

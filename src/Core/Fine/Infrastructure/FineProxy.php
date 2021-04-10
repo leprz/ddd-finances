@@ -14,8 +14,9 @@ class FineProxy extends Fine
     /**
      * @param \Library\Finances\Core\Fine\Infrastructure\FineEntity
      */
-    public function __construct(FineEntity $entity)
+    public function __construct(private FineEntity $entity)
     {
+        parent::__construct($this->entity);
     }
 
     /**
@@ -24,5 +25,6 @@ class FineProxy extends Fine
      */
     public function getEntity(FineEntityMapper $mapper): FineEntity
     {
+        return $mapper->mapToExistingEntity($this->entity, $this);
     }
 }

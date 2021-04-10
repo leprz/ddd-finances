@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Library\Finances\Core\Fine\Infrastructure;
 
 use Doctrine\ORM\EntityManagerInterface;
-use Library\Finances\Common\Infrastructure\Persistence\EntityMapperTrait;
+use Library\Finances\Common\Shared\Infrastructure\Persistence\EntityMapperTrait;
 use Library\Finances\Core\Fine\Domain\Fine;
 
 /**
@@ -18,7 +18,7 @@ class FineEntityMapper
     /**
      * @param \Doctrine\ORM\EntityManagerInterface
      */
-    public function __construct(EntityManagerInterface $entityManager)
+    public function __construct(private EntityManagerInterface $entityManager)
     {
     }
 
@@ -29,13 +29,15 @@ class FineEntityMapper
      */
     public function mapToExistingEntity(FineEntity $entity, Fine $model): FineEntity
     {
+        return $this->mapProperties($model, $entity, $this->entityManager);
     }
 
     /**
      * @param \Library\Finances\Core\Fine\Domain\Fine
      * @return \Library\Finances\Core\Fine\Infrastructure\FineEntity
      */
-    public function mapToNewEntity(Fine $cart): FineEntity
+    public function mapToNewEntity(Fine $model): FineEntity
     {
+        return $this->mapToExistingEntity($this->createNewInstanceWithoutConstructor(FineEntity::class), $model);
     }
 }

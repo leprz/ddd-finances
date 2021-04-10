@@ -14,8 +14,9 @@ class AccountOwnerProxy extends AccountOwner
     /**
      * @param \Library\Finances\Core\AccountOwner\Infrastructure\AccountOwnerEntity
      */
-    public function __construct(AccountOwnerEntity $entity)
+    public function __construct(private AccountOwnerEntity $entity)
     {
+        parent::__construct($this->entity);
     }
 
     /**
@@ -24,5 +25,6 @@ class AccountOwnerProxy extends AccountOwner
      */
     public function getEntity(AccountOwnerEntityMapper $mapper): AccountOwnerEntity
     {
+        return $mapper->mapToExistingEntity($this->entity, $this);
     }
 }

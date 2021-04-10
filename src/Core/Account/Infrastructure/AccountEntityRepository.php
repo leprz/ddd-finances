@@ -7,6 +7,7 @@ namespace Library\Finances\Core\Account\Infrastructure;
 use Doctrine\ORM\EntityManagerInterface;
 use Library\Finances\Core\Account\Application\AccountRepositoryInterface;
 use Library\Finances\Core\Account\Domain\Account;
+use Library\Finances\Core\AccountOwner\Domain\AccountOwnerId;
 use Library\SharedKernel\Infrastructure\Persistence\QueryBuilderTrait;
 
 /**
@@ -42,5 +43,10 @@ class AccountEntityRepository implements AccountRepositoryInterface
      */
     protected function getEntityManager(): EntityManagerInterface
     {
+    }
+
+    public function getByOwnerId(AccountOwnerId $accountOwnerId): Account
+    {
+
     }
 }
